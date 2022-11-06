@@ -4,4 +4,7 @@ return require('packer').startup(function(use)
 	use 'nvim-lua/plenary.nvim'
 	use 'joshdick/onedark.vim'
 	use 'nvim-telescope/telescope.nvim'
+	use 'neovim/nvim-lspconfig'
+	use 'lervag/vimtex'
+	use 'preservim/nerdtree'
 end)
